@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo.png">
+    <link rel="stylesheet" href="NoteEditor.css">
+    <title>Note Easy - Editor</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Notes.html">Notes</a></li>
+            <li><a href="Cat.html">Categories</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Account.html">Account</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Note Gallery</h1>
+    </header>
+    <section class="notes">
+        <article class="note">
+            <h2>Note Title 1</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 2</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 3</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 4</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 5</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 6</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 7</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 8</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 9</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+        <article class="note">
+            <h2>Note Title 10</h2>
+            <h3>Note Category</h3>
+            <p>Note content goes here.</p>
+            <button class="edit-button" onclick="location='NoteEditor.html'">Edit</button>
+        </article>
+    </section>
+    <div id="overlay">
+    <div id="container">
+        <h1 style="font-family: 'IBM Plex Sans Thai', sans-serif;">Note Editor</h1>
+        <br>
+        <div id="Name">
+        <label for="userText" cols="5">Name of your Note:</label>
+        <br>
+        <input id="userText" type="text" placeholder="Please Enter your Name..." required>
+    </div>
+    <br>
+        <div id="Category">
+        <label for="userText">Category of your Note:</label>
+        <br>
+        <input id="userText" type="text" placeholder="Please Enter the Category..." required>
+    </div>
+    <br>
+    <div id="Text">
+        <label for="userText">Note Details:</label>
+        <br>
+        <textarea id="userText" cols="40" rows="5" placeholder="Please Enter your Text Here..." required></textarea>
+    </div><br>
+    <button id="cancelButton" onclick="location='Home.html'">Cancel</button> 
+    <br>
+    <button id="saveButton" onclick="location='Home.html'">Save</button>
+</div>
+    </div>
+    
+</body>
+<script src="NoteEditor.js"></script>
+</html>

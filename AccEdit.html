@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo.png">
+    <link rel="stylesheet" href="AccEdit.css">
+    <title>Note Easy - Editor</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Notes.html">Notes</a></li>
+            <li><a href="Cat.html">Categories</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Account.html">Account</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Account Information</h1>
+    </header>
+
+    <div class="account-details">
+        <h2>Account Details</h2>
+        <ul>
+            <li><strong>Username:</strong> user123</li>
+            <li><strong>Email:</strong> user@example.com</li>
+            <li><strong>Full Name:</strong> John Doe</li>
+            <li><strong>Birthdate:</strong> January 1, 1990</li>
+            <li><strong>Bio:</strong> This is a sample bio.</li>
+        </ul>
+    </div>
+
+    <div class="actions">
+        <button class="edit-button">Edit Account</button>
+        <button class="logout-button">Log Out</button>
+    </div>
+
+    <div id="overlay">
+        <div id="container">
+            <h1 style="font-family: 'IBM Plex Sans Thai', sans-serif;">Account Editor</h1>
+            <br>
+            <div id="Name">
+            <label for="userText" cols="5">Username :</label>
+            <br>
+            <input id="userText" type="text" placeholder="Please Enter your Username...">
+        </div>
+        <br>
+            <div id="Category">
+            <label for="userText">Email :</label>
+            <br>
+            <input id="userText" type="text" placeholder="Please Enter your Email...">
+        </div>
+        <br>
+        <div id="Text">
+            <label for="userText">Full Name :</label>
+            <br>
+            <input id="userText" placeholder="Please Enter your Name...">
+        </div><br>
+        <div id="Category">
+            <label for="userText">Birthdate :</label>
+            <br>
+            <input id="userText" type="text" placeholder="Please Enter your Birthdate...">
+        </div><br>
+        <div id="Category">
+            <label for="userText">Bio :</label>
+            <br>
+            <textarea id="userText" type="text" placeholder="Please Enter your Bio..."></textarea>
+        </div><br>
+        <button id="cancelButton" onclick="location='Account.html'">Cancel</button> 
+        <br>
+        <button id="saveButton" onclick="location='Account.html'">Save</button>
+    </div>
+        </div>
+</body>
+</html>

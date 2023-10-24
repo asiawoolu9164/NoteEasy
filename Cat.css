@@ -1,0 +1,113 @@
+body{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-image: linear-gradient(to top left, #5433ff, #20bdff, #a5fecb) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.logo img {
+    max-width: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: lightgrey;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    cursor: default;
+}
+
+.categories-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center; /* Center text and elements horizontally */
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+#category-list ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    list-style: none;
+}
+
+#category-list li {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#category-list li {
+    text-decoration: none;
+    list-style: none; /* Remove underline from links */
+}
+
+#category-list li:hover {
+    text-decoration: underline;
+    list-style: none;
+    background-color: rgb(238, 236, 236);
+}
